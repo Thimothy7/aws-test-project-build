@@ -7,7 +7,6 @@ phases:
     commands:
       - echo Installing dependencies...
       - pip install -r requirements.txt
-      - pip install pytest
   pre_build:
     commands:
       - echo start prebuild and end it
@@ -23,7 +22,7 @@ phases:
 artifacts:
     files:
       - "**/*"
-    base-directory: . # Specify where artifacts are stored
+    base-directory:.  # Specify where artifacts are stored
 reports:
     pytest_reports:      
       files:
