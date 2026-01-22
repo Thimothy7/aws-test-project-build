@@ -23,7 +23,7 @@ phases:
 artifacts:
     files:
       - "**/*"
-    base-directory:.  # Specify where artifacts are stored
+    base-directory: .  # Specify where artifacts are stored
 reports:
     pytest_reports:      
       files:
